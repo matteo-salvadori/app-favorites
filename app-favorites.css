@@ -1,0 +1,33 @@
+body{
+    background-image: url(appsmenu.jpg);
+    background-size: cover;
+    background-repeat: initial;
+}
+a[href^="mailto"]::before{
+    content: "📧";
+    text-align: center;
+}
+a[href^="tel"]::before{
+    content: "📞";
+    text-align: center;
+}
+#contact a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: aqua;
+}
+#titre{
+    text-align: center;
+    color: white;
+}
+.contact{
+    color: aqua;
+    font-style: italic;
+    text-decoration: underline;
+}
+.icons{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-left: 45%;
+}

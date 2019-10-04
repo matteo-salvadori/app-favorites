@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+    margin-left: 500px;
+    width: 150%;
+}
+html{
+    background: rgb(255, 86, 24) repeat-y;
+    margin-right: 91%;
+}
+.text{
+    text-align: center;
+}
